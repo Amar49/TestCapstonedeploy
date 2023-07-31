@@ -28,6 +28,7 @@ googleapis-common-protos==1.56.4
 greenlet==2.0.2
 grpc-gateway-protoc-gen-openapiv2==0.1.0
 grpcio==1.56.2
+gradio
 huggingface-hub==0.16.4
 idna==3.4
 importlib-metadata
