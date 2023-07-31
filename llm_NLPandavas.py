@@ -16,4 +16,4 @@ inputs = [
 ]
 
 
-gr.Interface(fn=output_llm, inputs=inputs, outputs=["text"]).launch(share=True)
+gr.Interface(fn=output_llm, inputs=inputs, outputs=["text"]).launch(server_name='0.0.0.0', server_port=8080)
