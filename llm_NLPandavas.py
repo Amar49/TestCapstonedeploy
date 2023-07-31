@@ -4,7 +4,7 @@ import gradio as gr
 import clinical_main
 
 pdf=[]
-for x in qa_clinical.pdfs:
+for x in clinical_main.pdfs:
     pdf.append(x.split(".")[0])
     
 inputs = [
