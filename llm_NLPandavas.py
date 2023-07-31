@@ -1,7 +1,7 @@
 from clinical_main import output_llm
 import random
 import gradio as gr
-import qa_clinical
+import clinical_main
 
 pdf=[]
 for x in qa_clinical.pdfs:
